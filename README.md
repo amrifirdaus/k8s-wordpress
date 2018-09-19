@@ -37,10 +37,10 @@ Use gcloud tool to create a new cluster in a compute zone.
 ./deploy.sh
 
 #### 4. Scalable WordPress
-For scale up to 3:
+For increase to 3:
 
-./scale.sh 3
+./resize-wp.sh 3
 
-For back to 1
+For reduce to 1
 
-./scale.sh 1
+./resize-wp.sh 1
